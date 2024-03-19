@@ -1,0 +1,1257 @@
+
+
+
+.element-earth {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-earth .div {
+  background-color: #000000;
+  overflow: hidden;
+  width: 1440px;
+  height: 8360px;
+  position: relative;
+}
+
+.element-earth .overlap {
+  position: absolute;
+  width: 1888px;
+  height: 1551px;
+  top: -288px;
+  left: -321px;
+}
+
+.element-earth .earthspace {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 288px;
+  right: 0;
+  object-fit: cover;
+  opacity: 0; /* Start with 0 opacity */
+  animation: fadeInFromRight 2.5s forwards; /* Adjust the duration as needed */
+}
+
+@keyframes fadeInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60%); /* Move off-screen to the right */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Move in from the right */
+  }
+}
+
+
+
+.element-earth .earth {
+  display: flex;
+  width: 605px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 519px;
+  left: 432px;
+}
+
+.element-earth .text-wrapper {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  text-shadow: 0px 0px 23px #ffffff;
+  font-family: "TWK Lausanne-200", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 296px;
+  letter-spacing: -20.72px;
+  line-height: normal;
+  opacity: 0; /* Start with 0 opacity */
+  transform: translateX(-100%); /* Start off-screen to the left */
+  animation: fadeInAndSlide 1.5s forwards; /* Adjust the duration as needed */
+}
+
+@keyframes fadeInAndSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.element-earth .topartifacts {
+  position: absolute;
+  width: 1888px;
+  height: 880px;
+  top: 0;
+  left: 0;
+}
+
+.element-earth .ellipse {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 30px;
+  left: 20px;
+  border-radius: 300px;
+  border: 0.5px solid;
+  border-color: #ffffff;
+}
+
+.element-earth .vector {
+  position: absolute;
+  width: 775px;
+  height: 187px;
+  top: 288px;
+  left: 510px;
+}
+
+.element-earth .img {
+  position: absolute;
+  width: 407px;
+  height: 880px;
+  top: 475px;
+  left: 1285px;
+}
+
+.element-earth .main-navigation {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 34.07px 8px 21.07px;
+  position: absolute;
+  top: 312px;
+  left: 365px;
+/*  border-radius: 1px;
+  border: 1px solid;
+  border-color: transparent;
+  backdrop-filter: blur(18.85px) brightness(100%);
+  -webkit-backdrop-filter: blur(18.85px) brightness(100%);
+  border-image: linear-gradient(
+      to bottom,
+      rgba(209.5, 209.5, 209.5, 0.78),
+      rgb(65.27, 61.69, 61.69) 20%,
+      rgb(160.83, 160.83, 160.83) 40%,
+      rgb(38.76, 38.76, 38.76) 60%,
+      rgb(184.95, 178.58, 178.58) 80%,
+      rgb(72.74, 72.74, 72.74) 100%
+    )
+    1;
+  background: linear-gradient(180deg, rgba(15.79, 15.54, 15.54, 0.7) 19.5%, rgba(67.7, 67.7, 67.7, 0.5) 100%);*/
+}
+
+.element-earth .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 22.18px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-earth .group {
+  position: relative;
+  width: 14.42px;
+  height: 14.42px;
+}
+
+.element-earth .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.11px;
+  text-shadow: 0px 0px 3.33px #ffffff;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.5px;
+  text-align: center;
+  letter-spacing: -0.93px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .frame-2 {
+  display: flex;
+  width: 435.88px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 30.51px;
+  position: relative;
+}
+
+.element-earth .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.11px;
+  text-shadow: 0px 0px 4.44px #ffffff;
+  mix-blend-mode: screen;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11.1px;
+  letter-spacing: -0.33px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 1085px;
+  top: 7275px;
+  left: 0;
+  background-image: url(./img/earthspace-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.element-earth .text-wrapper-4 {
+  position: absolute;
+  width: 429px;
+  top: 1041px;
+  left: 506px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: -0.19px;
+  line-height: 0.1px;
+}
+
+.element-earth .div-wrapper {
+  display: flex;
+  width: 443px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 104px;
+  left: 499px;
+}
+
+.element-earth .p {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+}
+
+.element-earth .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 713px;
+  left: 509px;
+}
+
+.element-earth .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.element-earth .group-2 {
+  position: relative;
+  width: 70px;
+  height: 88px;
+}
+
+.element-earth .text-wrapper-6 {
+  position: absolute;
+  width: 62px;
+  top: 0;
+  left: 0;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-7 {
+  position: absolute;
+  width: 62px;
+  top: 22px;
+  left: 0;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-8 {
+  position: absolute;
+  width: 62px;
+  top: 44px;
+  left: 0;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-9 {
+  position: absolute;
+  width: 62px;
+  top: 66px;
+  left: 0;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.element-earth .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;
+  position: absolute;
+  top: 713px;
+  left: 762px;
+}
+
+.element-earth .group-3 {
+  position: relative;
+  width: 71px;
+  height: 88px;
+}
+
+.element-earth .text-wrapper-10 {
+  position: absolute;
+  width: 62px;
+  top: 0;
+  left: 1px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-11 {
+  position: absolute;
+  width: 62px;
+  top: 22px;
+  left: 1px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-12 {
+  position: absolute;
+  width: 62px;
+  top: 66px;
+  left: 1px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  line-height: 0.1px;
+}
+
+.element-earth .bottomnavigation {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 721px;
+  left: 158px;
+}
+
+.element-earth .text-wrapper-13 {
+  position: relative;
+  width: 82px;
+  height: 19px;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: -0.27px;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-14 {
+  position: relative;
+  width: 133px;
+  height: 19px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: -0.27px;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-15 {
+  position: relative;
+  width: 82px;
+  height: 19px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: -0.27px;
+  line-height: 0.1px;
+}
+
+.element-earth .earthinsignia {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 1378px;
+  left: 603px;
+}
+
+.element-earth .earthicono {
+  position: relative;
+  width: 215px;
+  height: 216px;
+  object-fit: cover;
+}
+
+.element-earth .overlap-2 {
+  position: absolute;
+  width: 1374px;
+  height: 1556px;
+  top: 1659px;
+  left: -21px;
+}
+
+.element-earth .overlap-3 {
+  position: absolute;
+  width: 1249px;
+  height: 624px;
+  top: 0;
+  left: 0;
+}
+
+.element-earth .earth-is-the-third-wrapper {
+  display: flex;
+  width: 524px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 443px;
+  left: 214px;
+}
+
+.element-earth .earth-is-the-third {
+  position: relative;
+  width: 555px;
+  margin-top: -1px;
+  margin-right: -51px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+}
+
+.element-earth .artifacts {
+  position: absolute;
+  width: 1249px;
+  height: 549px;
+  top: 0;
+  left: 0;
+}
+
+.element-earth .frame-3 {
+  position: absolute;
+  width: 1131px;
+  height: 40px;
+  top: 54px;
+  left: 330px;
+}
+
+.element-earth .frame-4 {
+  position: absolute;
+  width: 20px;
+  height: 405px;
+  top: 0;
+  left: 538px;
+}
+
+.element-earth .ellipse-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 1215px;
+}
+
+.element-earth .ellipse-2 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 5px #ffffff;
+  border: 0.5px solid;
+  border-color: #ffffff;
+}
+
+.element-earth .frame-5 {
+  position: absolute;
+  width: 20px;
+  height: 525px;
+  top: 0;
+  left: 1229px;
+}
+
+.element-earth .frame-6 {
+  position: absolute;
+  width: 595px;
+  height: 20px;
+  top: 275px;
+  left: 21px;
+}
+
+.element-earth .group-4 {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 268px;
+  left: 612px;
+}
+
+.element-earth .frame-7 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 56px;
+  left: 530px;
+}
+
+.element-earth .ellipse-3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #ffffff;
+  border: 0.5px solid;
+  border-color: #ffffff;
+}
+
+.element-earth .overlap-4 {
+  position: absolute;
+  width: 980px;
+  height: 687px;
+  top: 619px;
+  left: 394px;
+}
+
+.element-earth .earth-has-a-dynamic-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 395px;
+}
+
+.element-earth .earth-has-a-dynamic {
+  position: relative;
+  width: 565px;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+}
+
+.element-earth .artifacts-2 {
+  position: absolute;
+  width: 464px;
+  height: 567px;
+  top: 120px;
+  left: 0;
+}
+
+.element-earth .artifacts-3 {
+  position: absolute;
+  width: 464px;
+  height: 638px;
+  top: 918px;
+  left: 893px;
+}
+
+.element-earth .atmosphericcomp {
+  position: absolute;
+  width: 1128px;
+  height: 1231px;
+  top: 3316px;
+  left: 158px;
+}
+
+.element-earth .text-wrapper-16 {
+  position: absolute;
+  width: 394px;
+  top: -1px;
+  left: 367px;
+  text-shadow: 0px 0px 7px #ffffff;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -2.45px;
+  line-height: normal;
+}
+
+.element-earth .line {
+  position: absolute;
+  width: 405px;
+  height: 10px;
+  top: 58px;
+  left: 361px;
+}
+
+.element-earth .carbon-dioxide {
+  position: absolute;
+  width: 373px;
+  height: 363px;
+  top: 237px;
+  left: 80px;
+  transition: transform 0.3s ease; /* Add smooth transition for a better visual effect */
+}
+
+.element-earth .carbon-dioxide:hover {
+  transform: scale(1.2); /* You can adjust the scale factor as needed */
+}
+
+
+.element-earth .overlap-group-2 {
+  position: relative;
+  height: 363px;
+}
+
+.element-earth .carbon {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 114px;
+  left: 0;
+}
+
+.element-earth .step-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-earth .step {
+  backdrop-filter: blur(26px) brightness(100%);
+  -webkit-backdrop-filter: blur(26px) brightness(100%);
+  position: relative;
+  width: 233.22px;
+  height: 229.33px;
+  background-color: #ffffff03;
+  border-radius: 35px;
+  box-shadow: inset 0px 1px 40px #ffffff24, inset 0px 4px 11px #083b5899, inset 0px 98px 100px -48px #00a1fc1f,
+    inset 0px -82px 68px -64px #0d4d714c, inset 0px 7px 11px -4px #ffffff, inset 0px 39px 56px -36px #ffffff80;
+}
+
+.element-earth .frame-8 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+
+.element-earth .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-shadow: 0px 0px 23px #ffffff;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 116px;
+  letter-spacing: -8.12px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 178px;
+  left: 96px;
+}
+
+.element-earth .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-shadow: 0px 0px 23px #ffffff;
+  font-family: "TWK Lausanne-450", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: -1.61px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  left: 26px;
+}
+
+.element-earth .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-shadow: 0px 0px 23px #ffffff;
+  font-family: "TWK Lausanne-350", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 46px;
+  letter-spacing: -3.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .oxygen {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+.element-earth .step-2 {
+  backdrop-filter: blur(15px) brightness(100%);
+  -webkit-backdrop-filter: blur(15px) brightness(100%);
+  position: relative;
+  width: 233.22px;
+  height: 229.33px;
+  background-color: #ffffff03;
+  border-radius: 35px;
+  box-shadow: inset 0px 1px 40px #ffffff24, inset 0px 4px 11px #083b5899, inset 0px 98px 100px -48px #00a1fc1f,
+    inset 0px -82px 68px -64px #0d4d714c, inset 0px 7px 11px -4px #ffffff, inset 0px 39px 56px -36px #ffffff80;
+}
+
+.element-earth .frame-11 {
+  position: absolute;
+  width: 115px;
+  height: 149px;
+  top: 50px;
+  left: 77px;
+}
+
+.element-earth .text-wrapper-20 {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  text-shadow: 0px 0px 23px #ffffff;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 116px;
+  letter-spacing: -8.12px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .frame-12 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 178px;
+  left: 90px;
+}
+
+.element-earth .nitrogen {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 351px;
+  left: 781px;
+  transition: transform 0.3s ease; /* Add smooth transition for a better visual effect */
+}
+
+.element-earth .nitrogen:hover {
+  transform: scale(1.2); /* You can adjust the scale factor as needed */
+}
+
+.element-earth .frame-13 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 77px;
+}
+
+.element-earth .frame-14 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 178px;
+  left: 88px;
+}
+
+.element-earth .frame-15 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 645px;
+  left: 106px;
+}
+
+.element-earth .text-wrapper-21 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-shadow: 0px 0px 7px #ffffff;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: -1.75px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-earth .frame-16 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 645px;
+  left: 835px;
+}
+
+.element-earth .argon {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 838px;
+  left: 107px;
+ transition: transform 0.3s ease; /* Add smooth transition for a better visual effect */
+}
+
+.element-earth .argon:hover {
+  transform: scale(1.2); /* You can adjust the scale factor as needed */
+}
+
+.element-earth .frame-17 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 61px;
+}
+
+.element-earth .oxygen-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 838px;
+  left: 779px;
+ transition: transform 0.3s ease; /* Add smooth transition for a better visual effect */
+}
+
+.element-earth .oxygen-2:hover {
+  transform: scale(1.2); /* You can adjust the scale factor as needed */
+}
+.element-earth .frame-18 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.element-earth .frame-19 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 1141px;
+  left: 172px;
+}
+
+.element-earth .frame-20 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 1143px;
+  left: 842px;
+}
+
+.element-earth .stats {
+  position: absolute;
+  width: 1124px;
+  height: 908px;
+  top: 4698px;
+  left: 158px;
+}
+
+.element-earth .frame-21 {
+  position: absolute;
+  width: 1124px;
+  height: 817px;
+  top: 91px;
+  left: 0;
+}
+
+.element-earth .line-2 {
+  position: absolute;
+  width: 26px;
+  height: 323px;
+  top: 113px;
+  left: 549px;
+}
+
+.element-earth .line-3 {
+  position: absolute;
+  width: 559px;
+  height: 26px;
+  top: 449px;
+  left: -12px;
+}
+
+.element-earth .line-4 {
+  position: absolute;
+  width: 560px;
+  height: 26px;
+  top: 449px;
+  left: 577px;
+}
+
+.element-earth .group-5 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 438px;
+  left: 537px;
+}
+
+.element-earth .line-5 {
+  position: absolute;
+  width: 26px;
+  height: 332px;
+  top: 497px;
+  left: 549px;
+}
+
+.element-earth .surfacearea {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+  position: absolute;
+  top: 229px;
+  left: 601px;
+}
+
+.element-earth .text-wrapper-22 {
+  position: relative;
+  width: 510px;
+  height: 32px;
+  margin-top: -1px;
+  text-shadow: 0px 0px 7px #ffffff;
+  font-family: "TWK Lausanne-500Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: -2.8px;
+  line-height: 0.1px;
+}
+
+.element-earth .text-wrapper-23 {
+  position: relative;
+  width: 394px;
+  height: 32px;
+  text-shadow: 0px 0px 7px #ffffff;
+  font-family: "TWK Lausanne-300", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  line-height: normal;
+}
+
+.element-earth .mass {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 719px;
+  left: 20px;
+}
+
+.element-earth .text-wrapper-24 {
+  position: relative;
+  width: 394px;
+  height: 32px;
+  margin-top: -1px;
+  text-shadow: 0px 0px 7px #ffffff;
+  font-family: "TWK Lausanne-500Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: -2.8px;
+  line-height: 0.1px;
+}
+
+.element-earth .volume {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 719px;
+  left: 697px;
+}
+
+.element-earth .meandistance {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 320px;
+  left: 43px;
+}
+
+.element-earth .frame-22 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 7249px;
+  left: 652px;
+}
+
+.element-earth .text-wrapper-25 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 47px;
+  text-align: center;
+  letter-spacing: -0.47px;
+  line-height: 0.1px;
+}
+
+.element-earth .moon-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 6733px;
+  left: 499px;
+  transition: transform 0.3s ease, scale 0.3s ease; /* Add smooth transitions for rotation and scaling */
+  animation: rotateMoon 12s linear infinite; /* Use the rotateMoon animation by default */
+}
+
+.element-earth .moon-wrapper:hover {
+  animation: rotateMoonHover 6s linear infinite; /* Use the rotateMoonHover animation on hover */
+  transform: scale(1.1); /* Increase size slightly on hover (adjust as needed) */
+}
+
+@keyframes rotateMoon {
+  0% {
+    transform: rotate(0deg); /* Initial state */
+  }
+  100% {
+    transform: rotate(360deg); /* Final state */
+  }
+}
+
+@keyframes rotateMoonHover {
+  0% {
+    transform: rotate(0deg) scale(1); /* Initial state for hover */
+  }
+  100% {
+    transform: rotate(720deg) scale(1.1); /* Faster rotation and increased size on hover (adjust as needed) */
+  }
+}
+
+
+.element-earth .moon {
+  position: relative;
+  width: 423px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.element-earth .satellites {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  position: absolute;
+  top: 6442px;
+  left: 513px;
+}
+
+.element-earth .frame-23 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-earth .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 37px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 0.1px;
+}
+
+.element-earth .frame-24 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-earth .meantemp {
+  display: flex;
+  width: 1001px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 5966px;
+  left: 223px;
+}
+
+.element-earth .mean-surface {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Neue Montreal-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 37px;
+  letter-spacing: -0.37px;
+  line-height: 0.1px;
+}

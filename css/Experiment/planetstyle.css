@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v50_105 {
+  width: 100%;
+  height: 4209px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+@keyframes changeColor {
+  0% {
+    filter: hue-rotate(0deg); /* Start with the original color */
+  }
+  50% {
+    filter: hue-rotate(360deg); /* Rotate the hue to 360 degrees for a full color change */
+  }
+}
+
+.v113_216 {
+  width: 1600px;
+  height: 1000px;
+  background: url("../images/v113_216.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  animation: changeColor 14s infinite linear; /* Change color over 10 seconds, and repeat infinitely */
+}
+
+.v50_168 {
+  width: 285px;
+  height: 284px;
+  background: url("../images/v50_168.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2297px;
+  left: 727px;
+  overflow: hidden;
+}
+.v50_172 {
+  width: 133px;
+  height: 133px;
+  background: url("../images/v50_172.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2342px;
+  left: 700px;
+  overflow: hidden;
+}
+.v50_169 {
+  width: 275px;
+  height: 271px;
+  background: url("../images/v50_169.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2255px;
+  left: 431px;
+  overflow: hidden;
+}
+.v50_170 {
+  width: 119px;
+  height: 119px;
+  background: url("../images/v50_170.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2381px;
+  left: 549px;
+  overflow: hidden;
+}
+.v50_171 {
+  width: 162px;
+  height: 135px;
+  background: url("../images/v50_171.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2381px;
+  left: 372px;
+  overflow: hidden;
+}
+.v50_173 {
+  width: 207px;
+  height: 208px;
+  background: url("../images/v50_173.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2343px;
+  left: 937px;
+  overflow: hidden;
+}
+.definition1 {
+  width: 80%;
+  color: rgba(255, 236, 236, 1);
+  position: absolute;
+  top: 1353px;
+  left: 130px;
+  font-family: Neue Montreal;
+  font-weight: Medium;
+  font-size: 35px;
+  opacity: 1;
+  text-align: left;
+  transition: color 0.3s ease, box-shadow 0.3s ease; /* Add transitions for color and box-shadow */
+}
+
+.definition1:hover {
+  color: rgba(255, 255, 255, 1); /* Change the color when hovered */
+  text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+}
+.bigplanet {
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 447px;
+  left: 44px;
+  text-shadow: 0px 0px 16px rgba(1, 1, 1, 1);
+  font-family: TWK Lausanne;
+  font-weight: 400;
+  font-size: 356px;
+  letter-spacing: -15px;
+  line-height: 0.8;
+  opacity: 1;
+  text-align: left;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+  transition: transform 0.3s ease; /* Add a transition for smooth movement */
+}
+
+.bigplanet:hover {
+  transform: translateY(-15px); /* Move the text up by 5 pixels when hovered */
+}
+.navigationbar {
+  width: 666px;
+  height: 30px;
+  background: linear-gradient(rgba(255,248,248,0.20999999344348907), rgba(255,255,255,0.05999999865889549));
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 44px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+.v95_210 {
+  width: 67px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 44px;
+  left: 293px;
+  font-family: TWK Lausanne;
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.planet {
+  width: 67px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 44px;
+  left: 367px;
+  font-family: TWK Lausanne;
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v95_212 {
+  width: 67px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 44px;
+  left: 431px;
+  font-family: TWK Lausanne;
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.solarsystemicon {
+  width: 186px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 58px;
+  font-family: TWK Lausanne;
+  font-weight: 400;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: -0.4px;
+}
+.v95_214 {
+  width: 15px;
+  height: 15px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 43px;
+  left: 684px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px rgba(1, 1, 1, 1);
+}
+.v113_219 {
+  width: 56px;
+  height: 47px;
+  background: url("../images/v113_219.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 34px;
+  left: 1360px;
+  overflow: hidden;
+}

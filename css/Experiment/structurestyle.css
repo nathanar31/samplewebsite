@@ -1,0 +1,1145 @@
+.structure {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.structure .div {
+  background-color: #000000;
+  overflow: hidden;
+  width: 1440px;
+  height: 18774px;
+  position: relative;
+}
+
+.structure .overlap {
+  position: absolute;
+  width: 1447px;
+  height: 9213px;
+  top: 6193px;
+  left: 0;
+}
+
+.structure .overlap-group {
+  position: absolute;
+  width: 1447px;
+  height: 9213px;
+  top: 0;
+  left: 0;
+}
+
+.structure .overlap-group-2 {
+  position: absolute;
+  width: 1440px;
+  height: 813px;
+  top: 0;
+  left: 0;
+}
+
+.structure .vector {
+  top: 92px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .img {
+  top: 680px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .mercury-transparent {
+  position: absolute;
+  width: 185px;
+  height: 185px;
+  top: 0;
+  left: 646px;
+  object-fit: cover;
+}
+
+.structure .element-venus {
+  position: absolute;
+  width: 265px;
+  height: 265px;
+  top: 548px;
+  left: 606px;
+  object-fit: cover;
+}
+
+.structure .layer {
+  position: absolute;
+  width: 7px;
+  height: 589px;
+  top: 93px;
+  left: 266px;
+  background-image: url(./img/rectangle-11.png);
+  background-size: 100% 100%;
+}
+
+.structure .text-wrapper {
+  position: absolute;
+  width: 206px;
+  top: 375px;
+  left: 99px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 6923px;
+  top: 682px;
+  left: 0;
+}
+
+.structure .vector-2 {
+  top: 774px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .vector-3 {
+  top: 1676px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .vector-4 {
+  top: 3814px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .vector-5 {
+  top: 5353px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .saturn {
+  position: absolute;
+  width: 1440px;
+  height: 1951px;
+  top: 4415px;
+  left: 0;
+  object-fit: cover;
+}
+
+.structure .adobestock {
+  position: absolute;
+  width: 276px;
+  height: 276px;
+  top: 1539px;
+  left: 595px;
+  object-fit: cover;
+}
+
+.structure .earthicon {
+  position: absolute;
+  width: 391px;
+  height: 391px;
+  top: 579px;
+  left: 543px;
+  object-fit: cover;
+}
+
+.structure .asteroids {
+  position: absolute;
+  width: 1440px;
+  height: 404px;
+  top: 2285px;
+  left: 0;
+  object-fit: cover;
+}
+
+.structure .ceres {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 2303px;
+  left: 1261px;
+  object-fit: cover;
+}
+
+.structure .layer-2 {
+  position: absolute;
+  width: 7px;
+  height: 779px;
+  top: 0;
+  left: 266px;
+  background-image: url(./img/rectangle-12.png);
+  background-size: 100% 100%;
+}
+
+.structure .rectangle-wrapper {
+  position: absolute;
+  width: 7px;
+  height: 389px;
+  top: 1351px;
+  left: 1028px;
+  overflow: hidden;
+  transform: rotate(60deg);
+}
+
+.structure .rectangle {
+  position: absolute;
+  width: 340px;
+  height: 201px;
+  top: 94px;
+  left: -167px;
+  transform: rotate(-60deg);
+}
+
+.structure .img-wrapper {
+  position: absolute;
+  width: 4px;
+  height: 657px;
+  top: 1024px;
+  left: 1025px;
+  overflow: hidden;
+  transform: rotate(30deg);
+}
+
+.structure .rectangle-2 {
+  position: absolute;
+  width: 332px;
+  height: 571px;
+  top: 43px;
+  left: -164px;
+  transform: rotate(-30deg);
+}
+
+.structure .layer-3 {
+  position: absolute;
+  width: 7px;
+  height: 909px;
+  top: 775px;
+  left: 266px;
+  background-image: url(./img/rectangle-4.png);
+  background-size: 100% 100%;
+}
+
+.structure .layer-4 {
+  position: absolute;
+  width: 6px;
+  height: 1539px;
+  top: 3815px;
+  left: 266px;
+  background-image: url(./img/rectangle-6.png);
+  background-size: 100% 100%;
+}
+
+.structure .layer-5 {
+  position: absolute;
+  width: 6px;
+  height: 2137px;
+  top: 1681px;
+  left: 266px;
+  background-image: url(./img/rectangle-8.png);
+  background-size: 100% 100%;
+}
+
+.structure .layer-6 {
+  position: absolute;
+  width: 6px;
+  height: 1569px;
+  top: 5354px;
+  left: 266px;
+  background-image: url(./img/rectangle-9.png);
+  background-size: 100% 100%;
+}
+
+.structure .flexcontainer {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 1431px;
+  left: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .text {
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  line-height: 0.1px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .span {
+  letter-spacing: -0.16px;
+}
+
+.structure .text-wrapper-2 {
+  position: absolute;
+  width: 392px;
+  top: 2247px;
+  left: 537px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  line-height: 0.1px;
+}
+
+.structure .flexcontainer-2 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 4911px;
+  left: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .text-wrapper-3 {
+  position: absolute;
+  width: 198px;
+  top: 6223px;
+  left: 109px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .text-wrapper-4 {
+  position: absolute;
+  width: 198px;
+  top: 4571px;
+  left: 109px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .text-wrapper-5 {
+  position: absolute;
+  width: 206px;
+  top: 3054px;
+  left: 105px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .text-wrapper-6 {
+  width: 114px;
+  top: 2280px;
+  left: 1241px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+  position: absolute;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .text-wrapper-7 {
+  position: absolute;
+  width: 206px;
+  top: 1209px;
+  left: 99px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .text-wrapper-8 {
+  position: absolute;
+  width: 206px;
+  top: 377px;
+  left: 99px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .text-wrapper-9 {
+  position: absolute;
+  width: 206px;
+  top: 1282px;
+  left: 919px;
+  transform: rotate(-60deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.structure .text-wrapper-10 {
+  position: absolute;
+  width: 247px;
+  top: 1475px;
+  left: 926px;
+  transform: rotate(-30deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.structure .overlap-3 {
+  position: absolute;
+  width: 1440px;
+  height: 640px;
+  top: 7288px;
+  left: 0;
+}
+
+.structure .vector-6 {
+  top: 319px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .uranus {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  top: 0;
+  left: 386px;
+  object-fit: cover;
+}
+
+.structure .overlap-4 {
+  position: absolute;
+  width: 1440px;
+  height: 662px;
+  top: 8551px;
+  left: 0;
+}
+
+.structure .vector-7 {
+  top: 330px;
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  left: 0;
+}
+
+.structure .neptune {
+  position: absolute;
+  width: 639px;
+  height: 662px;
+  top: 0;
+  left: 387px;
+  object-fit: cover;
+}
+
+.structure .moon {
+  position: absolute;
+  width: 161px;
+  height: 97px;
+  top: 924px;
+  left: 1223px;
+}
+
+.structure .deimos {
+  position: absolute;
+  width: 192px;
+  height: 97px;
+  top: 1608px;
+  left: 1156px;
+}
+
+.structure .overlap-5 {
+  position: absolute;
+  width: 193px;
+  height: 157px;
+  top: 1992px;
+  left: 1141px;
+}
+
+.structure .phobos {
+  position: absolute;
+  width: 193px;
+  height: 97px;
+  top: 0;
+  left: 0;
+}
+
+.structure .phobos-2 {
+  position: absolute;
+  width: 74px;
+  height: 70px;
+  top: 87px;
+  left: 58px;
+  object-fit: cover;
+}
+
+.structure .moon-2 {
+  position: absolute;
+  width: 82px;
+  height: 81px;
+  top: 1033px;
+  left: 1262px;
+  object-fit: cover;
+}
+
+.structure .overlap-6 {
+  position: absolute;
+  width: 401px;
+  height: 236px;
+  top: 1097px;
+  left: 861px;
+}
+
+.structure .layer-7 {
+  position: absolute;
+  width: 7px;
+  height: 459px;
+  top: -112px;
+  left: 197px;
+  overflow: hidden;
+  transform: rotate(60deg);
+}
+
+.structure .rectangle-3 {
+  position: absolute;
+  width: 401px;
+  height: 236px;
+  top: 112px;
+  left: -197px;
+  transform: rotate(-60deg);
+}
+
+.structure .text-wrapper-11 {
+  position: absolute;
+  width: 206px;
+  top: 64px;
+  left: 107px;
+  transform: rotate(-30deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.structure .overlap-7 {
+  position: absolute;
+  width: 50px;
+  height: 604px;
+  top: 2363px;
+  left: 387px;
+}
+
+.structure .layer-8 {
+  position: absolute;
+  width: 7px;
+  height: 604px;
+  top: 0;
+  left: 43px;
+  background-image: url(./img/rectangle-10.png);
+  background-size: 100% 100%;
+}
+
+.structure .text-wrapper-12 {
+  position: absolute;
+  width: 206px;
+  top: 285px;
+  left: -89px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .overlap-8 {
+  position: absolute;
+  width: 77px;
+  height: 1269px;
+  top: 7611px;
+  left: 195px;
+}
+
+.structure .layer-9 {
+  position: absolute;
+  width: 6px;
+  height: 1269px;
+  top: 0;
+  left: 71px;
+  background-image: url(./img/rectangle-2.png);
+  background-size: 100% 100%;
+}
+
+.structure .text-wrapper-13 {
+  position: absolute;
+  width: 198px;
+  top: 596px;
+  left: -86px;
+  transform: rotate(-90deg);
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .deimos-2 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 1706px;
+  left: 1213px;
+  object-fit: cover;
+}
+
+.structure .flexcontainer-3 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 439px;
+  left: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .flexcontainer-4 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 1146px;
+  left: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .flexcontainer-5 {
+  gap: 40px;
+  width: 221px;
+  height: 478px;
+  top: 2423px;
+  left: 1226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .span-wrapper {
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 0.1px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .text-wrapper-14 {
+  letter-spacing: -0.04px;
+}
+
+.structure .flexcontainer-6 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 3800px;
+  left: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .flexcontainer-7 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 7199px;
+  left: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .flexcontainer-8 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 8405px;
+  left: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .text-wrapper-15 {
+  position: absolute;
+  top: 323px;
+  left: 158px;
+  text-shadow: 0px 0px 18.82px #ffffff;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 291.3px;
+  letter-spacing: -14.57px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.structure .overlap-9 {
+  position: absolute;
+  width: 1331px;
+  height: 1356px;
+  top: 4226px;
+  left: 55px;
+}
+
+.structure .sun-AU-from-the {
+  position: absolute;
+  width: 394px;
+  height: 161px;
+  top: 0;
+  left: 484px;
+}
+
+.structure .sunedit {
+  position: absolute;
+  width: 1331px;
+  height: 1277px;
+  top: 79px;
+  left: 0;
+  object-fit: cover;
+}
+
+.structure .element-AU-astronomical {
+  position: absolute;
+  width: 559px;
+  height: 93px;
+  top: 5740px;
+  left: 440px;
+}
+
+.structure .overlap-10 {
+  position: absolute;
+  width: 1440px;
+  height: 966px;
+  top: 15616px;
+  left: 0;
+}
+
+.structure .overlap-11 {
+  position: absolute;
+  width: 1440px;
+  height: 821px;
+  top: 145px;
+  left: 0;
+}
+
+.structure .asteroids-2 {
+  position: absolute;
+  width: 1440px;
+  height: 404px;
+  top: 417px;
+  left: 0;
+  object-fit: cover;
+}
+
+.structure .pluto {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  top: 384px;
+  left: 82px;
+  object-fit: cover;
+}
+
+.structure .layer-10 {
+  position: absolute;
+  width: 196px;
+  height: 479px;
+  top: 0;
+  left: 939px;
+  background-image: url(./img/rectangle-5.png);
+  background-size: 100% 100%;
+}
+
+.structure .text-wrapper-16 {
+  position: absolute;
+  width: 198px;
+  top: 359px;
+  left: 30px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 0.1px;
+}
+
+.structure .text-wrapper-17 {
+  position: absolute;
+  width: 392px;
+  top: 473px;
+  left: 537px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  line-height: 0.1px;
+}
+
+.structure .flexcontainer-9 {
+  gap: 40px;
+  width: 221px;
+  height: 478px;
+  top: 0;
+  left: 1187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .flexcontainer-10 {
+  gap: 18px;
+  width: 1124px;
+  height: 446px;
+  top: 956px;
+  left: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .p {
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -0.35px;
+  line-height: 38px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .text-wrapper-18 {
+  letter-spacing: -0.12px;
+}
+
+.structure .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 1602px;
+  left: 703px;
+}
+
+.structure .what-are-the-things {
+  position: relative;
+  width: 478px;
+  margin-top: -1px;
+  font-family: "undefined-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: -0.24px;
+  line-height: 35px;
+}
+
+.structure .flexcontainer-11 {
+  gap: 18px;
+  width: 478px;
+  height: 62px;
+  top: 4008px;
+  left: 481px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .text-2 {
+  font-family: "Neue Montreal-Bold", Helvetica;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .text-wrapper-19 {
+  font-weight: 700;
+  letter-spacing: -0.04px;
+}
+
+.structure .text-wrapper-20 {
+  font-family: "Neue Montreal-Regular", Helvetica;
+  letter-spacing: -0.04px;
+}
+
+.structure .text-wrapper-21 {
+  width: 255px;
+  top: 1933px;
+  left: 349px;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+  position: absolute;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .text-wrapper-22 {
+  position: absolute;
+  width: 411px;
+  top: 2244px;
+  left: 187px;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+}
+
+.structure .text-wrapper-23 {
+  position: absolute;
+  width: 560px;
+  top: 2466px;
+  left: 39px;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+}
+
+.structure .text-wrapper-24 {
+  position: absolute;
+  width: 413px;
+  top: 2749px;
+  left: 197px;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+}
+
+.structure .text-wrapper-25 {
+  position: absolute;
+  width: 498px;
+  top: 3036px;
+  left: 98px;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+}
+
+.structure .text-wrapper-26 {
+  position: absolute;
+  width: 498px;
+  top: 3323px;
+  left: 98px;
+  font-family: "TWK Lausanne-400", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+}
+
+.structure .flexcontainer-12 {
+  gap: 79px;
+  width: 498px;
+  height: 274px;
+  top: 3542px;
+  left: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .text-3 {
+  font-family: "TWK Lausanne-Regular", Helvetica;
+  font-size: 120px;
+  text-align: right;
+  letter-spacing: -4.8px;
+  line-height: 23px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.structure .text-wrapper-27 {
+  letter-spacing: -5.76px;
+}
+
+.structure .overlap-12 {
+  position: absolute;
+  width: 1440px;
+  height: 1286px;
+  top: 16938px;
+  left: 0;
+}
+
+.structure .layer-11 {
+  position: absolute;
+  width: 196px;
+  height: 479px;
+  top: 89px;
+  left: 939px;
+  background-image: url(./img/rectangle.png);
+  background-size: 100% 100%;
+}
+
+.structure .oortcloud {
+  position: absolute;
+  width: 1440px;
+  height: 1251px;
+  top: 35px;
+  left: 0;
+  object-fit: cover;
+}
+
+.structure .text-wrapper-28 {
+  position: absolute;
+  width: 392px;
+  top: 240px;
+  left: 537px;
+  font-family: "Neue Montreal-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  line-height: 0.1px;
+}
+
+.structure .flexcontainer-13 {
+  gap: 40px;
+  width: 142px;
+  height: 210px;
+  top: 0;
+  left: 1178px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.structure .flexcontainer-14 {
+  gap: 60px;
+  width: 392px;
+  height: 88px;
+  top: 6084px;
+  left: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
